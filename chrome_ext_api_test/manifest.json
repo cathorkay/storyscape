@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Upcoming SF Concerts",
+    "description": "Add a custom background to Google",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/icon_16.png",
+        "64": "/images/icon_64.png",
+        "128": "/images/icon_128.png"
+    },
+    "action" : {
+        "default_popup": "index.html",
+        "deafult_title": "Upcoming SF Concerts"
+    }
+}
+
