@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "iBG",
+    "description": "Add a custom background to Google",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/icon_16.png",
+        "64": "/images/icon_64.png",
+        "128": "/images/icon_128.png"
+    },
+    "page_action" : {
+        "default_icon": {
+            "16": "/images/icon_16.png",
+            "64": "/images/icon_64.png",
+            "128": "/images/icon_128.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+    }]
+}
+
