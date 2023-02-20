@@ -1,3 +1,5 @@
+// back end - api
+
 async function fetchData() {
     const options = {
         method: 'GET',
@@ -16,4 +18,4 @@ async function fetchData() {
 
     document.getElementById("concerts").innerHTML = record.data.map(item => `<li>${item.name}</li>`).join('');
 }
-fetchData();
+//fetchData();
